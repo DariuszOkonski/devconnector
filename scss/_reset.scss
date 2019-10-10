@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #17a2b8;
+  color: $primary-color;
 }
 
 ul {
@@ -26,4 +26,3 @@ ul {
 img {
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
