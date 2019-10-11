@@ -160,7 +160,7 @@ img {
 
 .bg-danger {
   background-color: #dc3545;
-  color: #333;
+  color: #fff;
 }
 
 .bg-white {
@@ -212,7 +212,7 @@ img {
 
 .btn.btn-danger {
   background-color: #dc3545;
-  color: #333;
+  color: #fff;
 }
 
 .btn.btn-danger:hover {
@@ -221,6 +221,34 @@ img {
 
 .btn:hover {
   background-color: #626d78;
+  color: #fff;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background-color: #f4f4f4;
+  color: #ccc;
+}
+
+.alert.alert-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.alert.alert-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.alert.alert-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.alert.alert-danger {
+  background-color: #dc3545;
   color: #fff;
 }
 
