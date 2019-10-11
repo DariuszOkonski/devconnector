@@ -9,7 +9,8 @@
         "../scss/_main-page.scss",
         "../scss/_register.scss",
         "../scss/_profiles.scss",
-        "../scss/_posts.scss"
+        "../scss/_posts.scss",
+        "../scss/_mobile.scss"
     ],
     "names": [],
     "file": "style.css"
