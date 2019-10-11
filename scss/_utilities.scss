@@ -172,7 +172,6 @@
   }
 }
 
-
 .dark-overlay {
   height: 100%;
   width: 100%;
@@ -180,4 +179,23 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+// Tables 
+.table {
+
+  th,
+  td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid $light-color;
+  }
+
+  th:last-child {
+    border: none;
+  }
+
+  th {
+    background-color: $light-color;
+  }
 }
