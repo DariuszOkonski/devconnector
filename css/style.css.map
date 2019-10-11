@@ -6,7 +6,8 @@
         "../scss/_config.scss",
         "../scss/_reset.scss",
         "../scss/_utilities.scss",
-        "../scss/_main-page.scss"
+        "../scss/_main-page.scss",
+        "../scss/_register.scss"
     ],
     "names": [],
     "file": "style.css"
