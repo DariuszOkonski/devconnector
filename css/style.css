@@ -137,13 +137,17 @@ img {
   color: #17a2b8;
 }
 
+.round-img {
+  border-radius: 50%;
+}
+
 .bg-primary {
   background-color: #17a2b8;
   color: #fff;
 }
 
 .bg-light {
-  background-color: #f4f4f4;
+  background-color: #ddd;
   color: #333;
   border: 1px solid #ccc;
 }
@@ -171,7 +175,7 @@ img {
 
 .btn {
   display: inline-block;
-  background-color: #f4f4f4;
+  background-color: #ddd;
   color: #333;
   padding: 0.4rem 1.3rem;
   border: none;
@@ -228,7 +232,7 @@ img {
   padding: 0.8rem;
   margin: 1rem 0;
   opacity: 0.9;
-  background-color: #f4f4f4;
+  background-color: #ddd;
   color: #ccc;
 }
 
@@ -348,5 +352,19 @@ img {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+}
+
+.profile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 4fr 2fr;
+      grid-template-columns: 2fr 4fr 2fr;
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
