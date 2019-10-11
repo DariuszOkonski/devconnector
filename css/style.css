@@ -300,6 +300,21 @@ img {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th:last-child {
+  border: none;
+}
+
+.table th {
+  background-color: #ddd;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
