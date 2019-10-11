@@ -6,7 +6,7 @@
         "../scss/_config.scss",
         "../scss/_reset.scss",
         "../scss/_utilities.scss",
-        "../scss/_navbar.scss"
+        "../scss/_main-page.scss"
     ],
     "names": [],
     "file": "style.css"
