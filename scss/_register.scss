@@ -21,4 +21,37 @@
     font-size: 1.2rem;
     border: 1px solid #ccc;
   }
+
+  input[type='submit'] {
+    font: inherit;
+  }
+
+  .social-input {
+    display: flex;
+
+    i {
+      padding: 0.5rem;
+      width: 4rem;
+
+      &.fa-twitter-square {
+        color: #38a1f3;
+      }
+
+      &.fa-facebook-square {
+        color: #3b5998;
+      }
+
+      &.fa-instagram {
+        color: #3f729b;
+      }
+
+      &.fa-youtube-square {
+        color: #c4302b;
+      }
+
+      &.fa-linkedin-square {
+        color: #0077b5;
+      }
+    }
+  }
 }
